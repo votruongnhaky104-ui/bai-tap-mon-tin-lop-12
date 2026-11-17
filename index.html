@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Võ Trương Nhã Kỳ | Bài tập môn Tin học</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #faf6f5;
+            color: #51434a;
+            line-height: 1.7;
+        }
+
+        /* PHẦN TIÊU ĐỀ */
+        header {
+            background: linear-gradient(135deg, #ead1d8, #d9aebc);
+            text-align: center;
+            padding: 75px 20px;
+        }
+
+        header h1 {
+            font-size: 34px;
+            color: #603f4b;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 17px;
+            color: #765865;
+        }
+
+        .line {
+            width: 65px;
+            height: 3px;
+            background: #a76e82;
+            margin: 25px auto;
+        }
+
+        /* NỘI DUNG CHÍNH */
+        .container {
+            max-width: 900px;
+            margin: 55px auto;
+            padding: 0 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .intro h2 {
+            color: #87576b;
+            margin-bottom: 12px;
+        }
+
+        .intro p {
+            color: #786a70;
+        }
+
+        .section-title {
+            color: #87576b;
+            margin-bottom: 20px;
+            font-size: 23px;
+        }
+
+        /* CÁC KHUNG BÀI TẬP */
+        .card {
+            background: #ffffff;
+            padding: 25px 30px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            border: 1px solid #eadde1;
+            box-shadow: 0 4px 12px rgba(100, 65, 80, 0.06);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 18px rgba(100, 65, 80, 0.12);
+        }
+
+        .card h3 {
+            color: #87576b;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #786a70;
+            margin-bottom: 15px;
+        }
+
+        .card a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #a76e82;
+            padding: 9px 20px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .card a:hover {
+            background: #805064;
+        }
+
+        /* CHÂN TRANG */
+        footer {
+            background: #ead1d8;
+            text-align: center;
+            padding: 25px;
+            color: #684b57;
+            margin-top: 60px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        /* GIAO DIỆN ĐIỆN THOẠI */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 26px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- TIÊU ĐỀ -->
+    <header>
+        <h1>VÕ TRƯƠNG NHÃ KỲ</h1>
+        <p>BÀI TẬP MÔN TIN HỌC</p>
+
+        <div class="line"></div>
+
+        <p>Thực hành thiết kế trang web bằng HTML và CSS</p>
+    </header>
+
+    <!-- NỘI DUNG -->
+    <main class="container">
+
+        <section class="intro">
+            <h2>GIỚI THIỆU</h2>
+
+            <p>
+                Trang web tổng hợp các bài thực hành môn Tin học,
+                vận dụng kiến thức về danh sách, bảng và ngôn ngữ HTML.
+            </p>
+        </section>
+
+        <h2 class="section-title">NỘI DUNG BÀI TẬP</h2>
+
+        <!-- BÀI TẬP 1 -->
+        <div class="card">
+            <h3>01. Danh sách câu lạc bộ</h3>
+
+            <p>
+                Thực hành tạo danh sách có thứ tự
+                và danh sách không có thứ tự.
+            </p>
+
+            <a href="danhsach.html">Xem bài tập</a>
+        </div>
+
+        <!-- BÀI TẬP 2 -->
+        <div class="card">
+            <h3>02. Lịch hoạt động câu lạc bộ</h3>
+
+            <p>
+                Thực hành tạo bảng, gộp hàng
+                và gộp cột bằng HTML.
+            </p>
+
+            <a href="clb.html">Xem bài tập</a>
+        </div>
+
+        <!-- BÀI TẬP 3 -->
+        <div class="card">
+            <h3>03. Bảng điểm học sinh</h3>
+
+            <p>
+                Vận dụng HTML và CSS để xây dựng
+                và định dạng bảng dữ liệu.
+            </p>
+
+            <a href="luyentap.html">Xem bài tập</a>
+        </div>
+
+    </main>
+
+    <!-- CHÂN TRANG -->
+    <footer>
+        <p><strong>VÕ TRƯƠNG NHÃ KỲ</strong></p>
+        <p>Sản phẩm thực hành môn Tin học</p>
+    </footer>
+
+</body>
+</html>
